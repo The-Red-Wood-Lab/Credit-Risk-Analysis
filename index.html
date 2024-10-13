@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Risk Analysis Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- It is the code for the navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#data">Data Collection</a></li>
+            <li><a href="#eda">EDA</a></li>
+            <li><a href="#feature-engineering">Feature Engineering</a></li>
+            <li><a href="#model-selection">Model Selection</a></li>
+            <li><a href="#evaluation">Evaluation</a></li>
+            <li><a href="#documentation">Documentation</a></li>
+        </ul>
+    </nav>
+
+    <!-- It is the main Content -->
+    <header>
+        <h1>Credit Risk Analysis Project</h1>
+        <p>Predicting credit risk using machine learning techniques.</p>
+    </header>
+
+    <!--These are the  Sections of the overall project -->
+    <section id="overview">
+        <h2>Project Overview 📝</h2>
+        <p>Credit risk analysis involves evaluating the likelihood that a borrower will default on their debt obligations. This project includes data collection, preprocessing, model training, evaluation, and deployment.</p>
+    </section>
+
+    <section id="objective">
+        <h2>Objective 🎯</h2>
+        <p>The objective is to predict the likelihood of loan applicants defaulting on loans, aiding financial institutions in making informed decisions.</p>
+    </section>
+
+    <section id="data">
+        <h2>Data Collection and Preparation 📂</h2>
+        <p>Data is collected from financial institutions, credit bureaus, and public statements. It includes borrower demographics, credit history, loan characteristics, and financial ratios.</p>
+    </section>
+
+    <section id="eda">
+        <h2>Exploratory Data Analysis (EDA) 🔍</h2>
+        <p>We use descriptive statistics and visualizations to understand the data distribution and relationships.</p>
+        <button onclick="showChart()">Show Example Chart</button>
+        <canvas id="exampleChart" width="400" height="200"></canvas>
+    </section>
+
+    <section id="feature-engineering">
+        <h2>Feature Engineering ⚙️</h2>
+        <p>Creating new features like the debt-to-income ratio and encoding categorical variables to improve model accuracy.</p>
+    </section>
+
+    <section id="model-selection">
+        <h2>Model Selection 🤖</h2>
+        <p>We use algorithms like Logistic Regression, Decision Trees, Random Forest, Gradient Boosting, and Neural Networks for supervised learning.</p>
+    </section>
+
+    <section id="evaluation">
+        <h2>Model Evaluation 📈</h2>
+        <p>Evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC are used to assess model performance.</p>
+    </section>
+
+    <section id="documentation">
+        <h2>Documentation and Reporting 📝</h2>
+        <p>All processes, findings, and model performance details are documented for transparency.</p>
+    </section>
+
+    <!-- It is the Footer -->
+    <footer>
+        <p>Credit Risk Analysis Project © 2024</p>
+        <a href="https://github.com/The-Red-Wood-Lab/Credit-Risk-Analysis" target="_blank">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="github-logo">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

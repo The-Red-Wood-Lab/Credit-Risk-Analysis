@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar design */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header design */
+header {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+/*Design for Sections */
+section {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/*Design for Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/*github logo rendering*/
+.github-logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    filter: invert(1);
+    transition: transform 0.3s;
+}
+
+.github-logo:hover {
+    transform: scale(1.1);
+}
